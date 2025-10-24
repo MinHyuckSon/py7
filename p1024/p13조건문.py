@@ -21,13 +21,45 @@
 #입력된 숫자가 짝수인지 홀수인지 출력하시오.
 #짝수입니다. 홀수입니다.
 
-iDest = 0
+# iDest = 0
 
-print("숫자를 입력하시오")
+# print("숫자를 입력하시오")
 
-iDest = int(input())
+# iDest = int(input())
 
-if(iDest%2 == 0):
-    print("짝수입니다")
+# if(iDest%2 == 0):
+#     print("짝수입니다")
+# else:
+#     print("홀수입니다")
+
+
+# 내부모듈
+# import datetime
+
+# now = datetime.datetime.now()
+
+# print(now.year,"년")
+# print(now.month,"월")
+# print(now.day,"일")
+# print(now.hour,"시")
+# print(now.minute,"분")
+# print(now.second,"초")
+
+#입력한 주민번호의 월을 파악해서 현재 날짜와 같은 월이면
+#이벤트 대상입니다.,이벤트 대상이 아닙니다. 출력하시오
+
+import datetime
+
+now = datetime.datetime.now()
+
+jumin = input("주민번호를 입력하세요")
+
+if((int(jumin[2:4]))==now.month ):
+    print("이벤트 대상입니다")
 else:
-    print("홀수입니다")
+    print("이벤트 대상이 아닙니다")
+
+# n ="03"
+# print(int(n))
+# n2 = 3
+# print("%02d" % n2)
