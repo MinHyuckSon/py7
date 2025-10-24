@@ -48,18 +48,24 @@
 #입력한 주민번호의 월을 파악해서 현재 날짜와 같은 월이면
 #이벤트 대상입니다.,이벤트 대상이 아닙니다. 출력하시오
 
-import datetime
+# import datetime
 
-now = datetime.datetime.now()
+# now = datetime.datetime.now()
 
-jumin = input("주민번호를 입력하세요")
+# jumin = input("주민번호를 입력하세요")
 
-if((int(jumin[2:4]))==now.month ):
-    print("이벤트 대상입니다")
-else:
-    print("이벤트 대상이 아닙니다")
+# if((int(jumin[2:4]))==now.month ):
+#     print("이벤트 대상입니다")
+# else:
+#     print("이벤트 대상이 아닙니다")
 
 # n ="03"
 # print(int(n))
 # n2 = 3
 # print("%02d" % n2)
+
+str1 ="abcdefg"
+# [시작번호:끝번호:스텝]
+print(str1[1:6::2]) #bdf
+print(str1[:5:2-1]) #fed
+print(str1[::-1])   #gfedcba 역순으로 숫자를 부름
