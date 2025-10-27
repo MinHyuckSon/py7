@@ -1,0 +1,25 @@
+#국어,영어,수학 점수를 입력받아 합계,평균을 출력하시오
+strName1 = input("이름을 입력하세요 ")
+iKor1 =int(input("국어점수를 입력하시오 "))
+iEng1 =int(input("영어점수를 입력하시오 "))
+iMath1 =int(input("수학점수를 입력하시오 "))
+
+strName2 = input("이름을 입력하세요 ")
+iKor2 =int(input("국어점수를 입력하시오 "))
+iEng2 =int(input("영어점수를 입력하시오 "))
+iMath2 =int(input("수학점수를 입력하시오 "))
+
+strName3 = input("이름을 입력하세요 ")
+iKor3 =int(input("국어점수를 입력하시오 "))
+iEng3 =int(input("영어점수를 입력하시오 "))
+iMath3 =int(input("수학점수를 입력하시오 "))
+
+#print("점수합계는 %d \n점수평균은 %.2f"%(int(iKor)+int(iEng)+int(iMath),(float(iKor)+float(iEng)+float(iMath))/3))
+print()
+print(" "*15+"학생성적프로그램")
+print("-"*50)
+print("이름\t국어\t영어\t수학\t합계\t평균")
+print("-"*50)
+print("%s\t%d\t%d\t%d\t%d\t%.2f"%(strName1,iKor1,iEng1,iMath1,(iKor1+iEng1+iMath1),(iKor1+iEng1+iMath1)/3))
+print("%s\t%d\t%d\t%d\t%d\t%.2f"%(strName2,iKor2,iEng2,iMath2,(iKor2+iEng2+iMath2),(iKor2+iEng2+iMath2)/3))
+print("%s\t%d\t%d\t%d\t%d\t%.2f"%(strName3,iKor3,iEng3,iMath3,(iKor3+iEng3+iMath3),(iKor30+iEng3+iMath3)/3))
